@@ -1,0 +1,37 @@
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+    background-color: #FFEAE0;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#centeredLink {
+    padding-left: 3.7rem;
+    padding-right: 3.7rem;
+}
+
+.link {
+
+}
+
+#button {
+    margin-right: 1.5rem;
+    background-color: #FA7783;
+    border-radius: 2.5rem;
+    border: none;
+    width: 10rem;
+    height: 3.7rem;
+    color: white;
+    font-size: 700;
+    font-size: 1.1rem;
+}
+
+#logo {
+    margin-left: 1.5rem;
+    align-self: center;
+}
