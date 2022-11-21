@@ -43,3 +43,52 @@
     background-color: white;
     color:#F28E66;
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+    padding-top: 11rem;
+}
+
+#text {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #47153D;
+    max-width: 50rem;
+    padding-left: 25rem;
+    position: relative;
+}
+
+#enjoy {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color:white;
+    background-color: #ECAE4B;
+    border-radius: 1rem;
+    padding: 0.6rem 0.5rem;
+}
+
+#gro {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color:white;
+    background-color: #6C7DEE;
+    border-radius: 1rem;
+    padding: 0.6rem 0.5rem;
+}
+
+#girl {
+    position: absolute;
+    left: 0;
+    top: -20rem;
+    left: -65%;
+}
+
+#star {
+    position: absolute;
+    right: 8%;
+    top: 19rem;
+}

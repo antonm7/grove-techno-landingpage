@@ -1,0 +1,112 @@
+#wrapper {
+    display: flex;
+        justify-content: center;
+        padding-top: 12.5rem;
+}
+
+#container {
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 2.5rem;
+    padding-top: 12rem;
+    padding-left: 5.9rem;
+    position: relative;
+}
+
+#title {
+    color: #47153D;
+    font-size: 9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 8rem;
+    z-index: 5;
+    position: relative;
+}
+
+#button {
+    background-color: #FA7783;
+    color: white ;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 9rem;
+    height:3.8em;
+    border-radius: 2.5rem;
+    border: none;
+    margin-top: 4.3rem;
+    margin-bottom: 3.75rem;
+}
+
+#girl {
+    position:absolute;
+    z-index: 1;
+    top: 4.25rem;
+    left: 29%;
+}
+
+#line {
+    position:absolute;
+    z-index: 6;
+    top:-2rem;
+    left: -2%;
+}
+
+#star {
+    position:absolute;
+    z-index: 6;
+    top:2rem;
+    right: 5.5%;
+}
+
+#opening {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    z-index: 6;
+    top: 5rem;
+    right: 20%;
+    color: #47153D;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: white;
+    width: 7.9rem;
+    height: 2.3rem;
+    border-radius: 0.75rem;
+    border: 1px solid #47153D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-16deg);
+ }
+
+ #party {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    z-index: 6;
+    top: 10rem;
+    right: 17%;
+    color: #47153D;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: white;
+    width:5.625rem;
+    height: 2.3rem;
+    border-radius: 0.75rem;
+    border: 1px solid #47153D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(8deg);
+ }
+
+ #para {
+    font-family: 'Open Sans', sans-serif;
+    color: #47153D;
+    font-size: 1.25rem;
+    font-weight: 600;
+    max-width: 17rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 14.5rem;
+ }
+  
