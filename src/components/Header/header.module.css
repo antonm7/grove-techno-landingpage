@@ -151,3 +151,81 @@
    font-size: 1.8rem;
    white-space: nowrap;
 }
+
+@media (max-width:1300px) {
+   #title {
+      font-size: 10rem;
+      line-height: 90%;
+      color: #47153D;
+      position: relative;
+      text-align: center;
+   }
+   #inter {
+      transform:scale(0.7) rotate(-16deg);
+      top: 9.3rem;
+      left: 33%;
+   }
+   #music {
+      transform:scale(0.6) rotate(2deg);
+      top: 9.5rem;
+      left: 58%;
+   }
+   #fest {
+      bottom: -6.5rem;
+   }
+   #date {
+      bottom:-9rem;
+   }
+   #right {
+      top: -4rem;
+      right:-38%;
+   }
+   #radio {
+      bottom: -20rem;
+      right:-65%;
+   }
+   #keys {
+      bottom: -8rem;
+      right:-73%;
+   }
+   #left {
+      bottom: -18rem;
+      left: -50%;
+   }
+   #dog {
+      bottom: -24rem;
+      left: -60%;
+   }
+}
+
+@media (max-width:950px) {
+   #smallerWrapper {
+      width: 70%;
+      margin: 0 auto;
+      position: relative;
+      margin-top: 15rem;
+   }
+   #date {
+      bottom: 6rem;
+   }
+   #radio {
+      top: 17rem;
+      right: -80%;
+   }
+   #keys {
+      top: 2rem;
+      right: -90%;
+   }
+   #star {
+      left: -80%;
+   }
+}
+
+@media (max-width:800px) {
+ #wrapper {
+   background-position: -20rem -0rem;
+ }
+ #smallerWrapper {
+   width: 50% !important;
+ }
+}

@@ -6,7 +6,7 @@
 
 #container {
     background-color: white;
-    width: 80%;
+    width: 80vw;
     height: auto;
     border-radius: 2.5rem;
     padding-top: 12rem;
@@ -22,6 +22,7 @@
     line-height: 8rem;
     z-index: 5;
     position: relative;
+    letter-spacing: -0.5rem;
 }
 
 #button {
@@ -110,3 +111,96 @@
     bottom: 14.5rem;
  }
   
+ @media (max-width:1400px) {
+    #para {
+        position: static;
+        margin-top: 3.3rem;
+    margin-bottom: 3.75rem;
+    }
+    #button {
+        margin-top:0rem;
+    }
+ }
+
+ @media (max-width:1000px) {
+   #title {
+    font-size: 6rem;
+    line-height: 6.5rem;
+   }
+   #star {
+        top: 25rem;
+   }
+   #opening {
+    top: 30rem;
+
+   }
+   #party {
+    top: 33rem;
+   }
+ }
+
+ @media (max-width:800px) {
+    #wrapper {
+        padding-top: 5rem;
+    }
+    #container {
+        padding-left: 2rem;
+    }
+    #para {
+        margin-top: 8rem;
+    }
+  }
+
+  @media (max-width:650px) {
+    #title {
+        font-size: 4.5rem;
+        line-height: 5rem;
+        letter-spacing: -0.25rem;
+    }
+    #container {
+        padding-left: 2rem;
+    }
+    #star {
+        display: none;
+    }
+    #opening {
+        display: none;
+    }
+    #party {
+        display: none;
+    }
+    #girl {
+        transform: scale(0.8);
+        left: 24%;
+    }
+  }
+
+  @media (max-width:550px) {
+    #girl {
+        transform: scale(0.6);
+        left: 18%;
+    }
+    #title {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        letter-spacing: -0.25rem;
+    }
+    #para {
+        margin-top: 6rem;
+    }
+  }
+
+  @media (max-width:400px) {
+    #girl {
+        transform: scale(0.4);
+        left: 12%;
+    }
+    #title {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: -0.25rem;
+    }
+    #para {
+        margin-top: 3.5rem;
+    }
+  }

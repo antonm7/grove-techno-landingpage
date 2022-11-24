@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import styles from './headliners.module.css'
 import one from '/public/headliners/1.png'
 import two from '/public/headliners/2.png'
@@ -9,13 +10,30 @@ import play from '/public/headliners/play.png'
 import voice from '/public/headliners/voice.png'
 
 export default function Headliners() {
+    const [dimensions, setDimensions] = useState({ 
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+
+    useEffect(() => {
+        function handleResize() {
+          setDimensions({
+            height: window.innerHeight,
+            width: window.innerWidth
+          })
+    }
+        window.addEventListener('resize', handleResize)
+      },[])
+
+      
     return (
         <div id={styles.wrapper}>
             <div id={styles.top}>
                 <h1 id={styles.title}>HEADLINERS</h1>
-                <button id={styles.button}>See all</button>
+                {dimensions.width > 1200 ? <button id={styles.button}>See all</button> : null}
             </div>
-            <p id={styles.para}>Enjoy mesmerizing performances of more than 800 of the plant's fonest electronic artists.</p>
+            <p id={styles.para}>Enjoy mesmerizing performances of more than 800 of the plant's fonest electronic artists.
+            {dimensions.width > 1200 ? null : <button id={styles.button}>See all</button> }</p>
             <div id={styles.flex}>
                     <div id={styles.box} style={{height:'27rem'}}>
                         <img src={one} id={styles.image} style={{height:'17.9rem'}} />

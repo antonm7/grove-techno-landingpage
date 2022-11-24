@@ -14,7 +14,8 @@
     align-items: center;
     color: white;
    background-color: #FA7783;
-   width: 24.375rem;
+   max-width: 24.375rem;
+   width: 100%;
    height: 11.25rem;
    border-radius: 2.5rem;
    
@@ -91,4 +92,88 @@
     position: absolute;
     right: 8%;
     top: 19rem;
+}
+
+@media (max-width:1350px) {
+    .box {
+       max-width: 18rem;
+       width: 100%;
+       height: 10rem;
+       border-radius: 2.5rem;
+    }
+    #girl {
+        position: absolute;
+        left: 0;
+        top: -20rem;
+        left: -60%;
+    }
+    #text {
+        font-size: 2rem;
+        max-width: 35rem;
+        padding-left: 30rem;
+        position: relative;
+        line-height: 3.5rem;
+    }
+    #enjoy {
+        font-size: 2rem;
+
+    }
+    
+    #gro {
+        font-size: 2rem;
+
+    }
+}
+
+@media (max-width:1200px) {
+    .box {
+       max-width: 18rem;
+       width: 100%;
+       height: 10rem;
+       border-radius: 2.5rem;
+    }
+    #girl {
+        position: absolute;
+        left: 0;
+        top: -20rem;
+        left: -60%;
+    }
+}
+
+@media (max-width:1000px) {
+  #content {
+    justify-content: flex-start;
+    padding-top: 4rem;
+  }
+    #text {
+        padding-left: 2rem;
+        max-width: 70%;
+  }
+  #imagesWrapper {
+    position: relative;
+    margin-top: 8rem;
+  }
+  #girl {
+    top: -20rem;
+    left: -40rem;
+}
+#star {
+    top: 10rem;
+}
+#flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    margin-bottom: 2rem;
+}
+}
+
+
+
+@media (max-width:950px) {
+    #wrapper {
+        margin-top:20rem ;
+    }
 }

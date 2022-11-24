@@ -1,0 +1,153 @@
+#wrapper {
+    background-color: #FFEAE0 !important;
+    background-image: url('/public/bottom/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 800px; */
+    padding-top: 12.5rem;
+    position: relative;
+    margin-top: 3.5rem;
+}
+
+#topWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    color: #47153D;
+    font-size: 3.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 4rem;
+    z-index: 5;
+    position: relative;
+    letter-spacing: -0.25rem;
+    text-transform: uppercase;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.pink {
+    color: #FA7783;
+    font-size: 3.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 3.25rem;
+    z-index: 5;
+    position: relative;
+    letter-spacing: -0.25rem;
+    text-transform: uppercase;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+}
+
+#input {
+    border-radius: 2.5rem;
+    max-width: 23.75rem;
+    width:23.75rem;
+    height: 3.75rem;
+    border: 1px solid #47153D;
+    padding-left: 1.25rem;
+    color: #47153D;
+    margin-right: 1.25rem;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+#button {
+    color: white;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 7.5rem;
+    height: 3.75rem;
+    background-color: #FA7783;
+    border-radius: 2.5rem;
+    border: none;
+    margin-right: 1.25rem;
+}
+
+#input::placeholder {
+    color: #47153D;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top: 10.3rem;
+}
+
+#right {
+    display: flex;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 12.5rem;
+}
+
+#iconsWrapper {
+    display: flex;
+    padding-top: 3.75rem;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.icon:nth-child(2) {
+    margin: 0 1.125rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    padding-right:8.125rem;
+}
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FA7783;
+    padding-bottom:1.125rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.05rem;
+}
+
+.link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #47153D;
+    padding-bottom: 0.75rem;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+}
+
+.link img {
+    margin-right:0.7rem;
+}
+
+#licanse h3{
+    padding-top: 7.063rem;
+    padding-bottom: 5.25rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #47153D;
+    font-size: 1.125rem;
+}

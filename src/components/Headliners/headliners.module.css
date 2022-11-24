@@ -2,7 +2,6 @@
     background-image: url('/public/headliners/bg.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-   
     margin-top: 15rem;
     padding-bottom: 15rem;
 }
@@ -97,4 +96,44 @@
     font-size: 1rem;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width:1200px) {
+   #button {
+    margin-top: 1.25rem;
+   }
+   #flex {
+    grid-template-columns: repeat(2, 1fr);
+   }
+   #box {
+    margin: 0 !important;
+   }
+   #top,#para {
+    padding-left: 2rem;
+   }
+}
+
+@media (max-width:1000px) {
+    #wrapper {
+        margin-top: 25rem;
+    }
+}
+
+@media (max-width:800px) {
+    #title {
+        font-size:5rem;
+    }
+    
+    #para {
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #flex {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+       }
+       #wrapper {
+        height: 227rem;
+       }
 }
