@@ -177,3 +177,42 @@
         margin-top:20rem ;
     }
 }
+
+@media (max-width:600px) {
+    #girl {
+        transform: scale(0.7);
+        left: -40rem;
+        top: -25rem;
+    }
+    #star {
+        left: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    #wrapper {
+        margin-top: 10rem;
+    }
+ }
+
+ @media (max-width:450px) {
+    #wrapper {
+        margin-top: 5rem;
+    }
+    #star {
+        transform: scale(0.6);    
+        left: 80%;
+    }
+ }
+
+@media (max-width:350px) {
+    #girl {
+        transform: scale(0.5);
+        left: -40rem;
+        top: -25rem;
+    }
+    #star {
+        transform: scale(0.5);    
+            left: 70%;
+    }
+}

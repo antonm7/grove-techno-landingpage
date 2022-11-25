@@ -229,3 +229,51 @@
    width: 50% !important;
  }
 }
+
+@media (max-width:550px) {
+   #date {
+      bottom: 8rem;
+   }
+   #smallerWrapper {
+      width: 50% !important;
+      margin-top: 17rem;
+      transform: scale(0.7);
+   }
+}
+
+@media (max-width:450px) {
+   #wrapper {
+      padding-top: 5rem;
+   }
+   #title {
+      font-size: 7rem;
+
+   }
+   #fest {
+      font-size: 7rem;
+      top: 11rem;
+   }
+   #date {
+      font-size: 1.4rem;
+      bottom: 8rem;
+   }
+   #subTitle {
+      padding-bottom: 0;
+   }
+   #flowers {
+      transform: scale(0.7);
+      left: 50%;
+   }
+   #inter {
+      top: 6rem;
+   }
+   #music {
+      top: 6.5rem;
+      left: 65%;
+   }
+   #smallerWrapper {
+      width: 60% !important;
+      transform: scale(0.7);
+      margin-top: 15rem;
+   }
+}

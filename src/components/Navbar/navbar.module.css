@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding-top: 1.2rem;
     background-color: #FFEAE0;
+    position: relative;
 }
 
 #container {
@@ -13,10 +14,6 @@
 #centeredLink {
     padding-left: 3.7rem;
     padding-right: 3.7rem;
-}
-
-.link {
-
 }
 
 #button {
@@ -34,4 +31,24 @@
 #logo {
     margin-left: 1.5rem;
     align-self: center;
+}
+
+.link {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #47153D;
+}
+
+@media (max-width:750px) {
+    #centeredLink {
+        padding-left:1.5rem;
+        padding-right:1.5rem;
+    }
+}
+
+@media (max-width:450) {
+    #wrapper {
+        align-items: center;
+    }
 }

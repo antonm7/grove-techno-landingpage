@@ -83,14 +83,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#iconWrapper {
-
-}
-
-#voice {
-
-}
-
 #time {
     color: #47153D;
     font-size: 1rem;
@@ -120,8 +112,17 @@
 }
 
 @media (max-width:800px) {
+    #wrapper {
+        margin-top: 20rem;
+        background-size: 100% 100%;
+        background-position: 0rem 4rem;
+    }
+    #top {
+        margin-top: 15rem;
+    }
     #title {
         font-size:5rem;
+        margin-top: 5rem;
     }
     
     #para {
@@ -134,6 +135,38 @@
         justify-items: center;
        }
        #wrapper {
-        height: 227rem;
+        height: 235rem;
        }
+}
+
+@media (max-width:600px) {
+    #wrapper {
+        margin-top: 15rem;
+    }
+    #title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:450px) {
+    #top,#para {
+        padding-left: 1rem;
+    }
+    #wrapper {
+        height: 250rem;
+       }
+    #box {
+        width: 19rem !important;
+        height: 105% !important;
+    }
+    #footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #title {
+        font-size: 3rem;
+        letter-spacing: -0.2rem;
+    }
+
 }
